@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font-family: "calibri";
+}
+
+h1{
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    font-style: italic;
+    padding: 5px 5px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+nav{
+    position: absolute;
+    top: 4rem;
+    left: 54rem;
+    z-index: 3;
+    text-align: right;
+    background-color: transparent;
+    padding: 0 20px;
+}
+.nav-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: black;
+    background-color: blue;
+    box-shadow: 0 2px 3px black;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-enlace:hover{
+background-color: green;
+}
+
+div#banner{
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    background: whitesmoke;
+}
+
+#img-banner{
+    display: block;
+    margin: auto;
+    height: 500px;
+}
+
+h2{
+    display: block;
+    margin: auto;
+    padding: 5px;
+
+    position: relative;
+    top: 37rem;
+    
+    width: 1170px;
+    background-color: whitesmoke;    
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid;
+    border-color: black;
+}
+#Logo {
+    float: left;
+    position: relative;
+    z-index: 1;
+    top: 40rem;
+    left: 4rem;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#imagen {
+    float: right;
+    position: absolute;
+    top: 46rem;
+    left: 27rem;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#imagenmain{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.texto{
+    display: inline-block;
+    margin: auto;
+
+    position: absolute;
+    top: 44rem;
+    left: 19rem;
+    right: 40rem;
+    z-index: 0;
+    font-size: 20px;
+    text-align: left;
+    line-height: 125%;
+    width: 600px;
+    height: 900px;
+    padding-bottom: 50px;
+}
+.datosdecontacto{
+    display: inline-block;
+    margin: auto;
+
+    position: absolute;
+    top: 48rem;
+    left: 19rem;
+    right: 40rem;
+    z-index: 0;
+    font-size: 20px;
+    text-align: left;
+    line-height: 125%;
+    width: 600px;
+    height: 900px;
+    padding-bottom: 50px;
+}
